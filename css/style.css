@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px;
+}
+.header-left{
+    width: 20%;
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+.header-left img{
+    width: 85px;
+    height: 60px;
+}
+.header-center{
+    flex: 8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+   
+.header-right{
+    margin-top: 30px;
+    gap: 10px;
+}
+    
+.form-group{
+    margin-bottom: 20px;
+    display: flex;
+    width: 470px;
+    height: 6vh;
+    border: solid rgba(0,0, 0.647); 
+    border-radius: 30px;
+    border-left: solid #000;
+   
+}
+
+input{
+    border-radius: 15px;
+    border: none;
+    margin-left: 30px;
+
+}
+.icon1{
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 210px;
+    border-left: 1px solid;
+}
+.voice{
+    background: rgb(192, 185, 185);
+    border-radius: 100%;
+    margin: 10px;
+    width: 50px;
+    height: 35px;
+    text-align: center;
+    margin-bottom: 23px;
+    padding-top: 10px;
+
+}
+
+.header-right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;   
+}
+/* ------------------------------ */
+main{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.aside{
+    border: 1px solid;
+    width: 80%;
+    margin-left: 10px;
+    margin-top: 10px;
+    border: none;
+}
+.aside img{
+    width: 40px;
+    height: 30px;
+}
+
+/* ----------------------------------------- */
+aside.container-top{
+    width: 60px;
+    height: 30px;
+    display: flex;
+    gap: 50px;
+    
+}
+.header-right img{
+    height: 20px;
+    width: 25px;
+}
+.container-top{
+    list-style: none;
+    display: flex;
+    padding: 15px;
+    
+}
+.container-top a{
+    padding: 10px;
+    text-decoration: none;
+    margin: 10px; 
+    border-radius: 10px;
+    background: rgb(236, 234, 234);
+    color: #000;   
+}
+/* --------------------------------- */
+
+.video-container {    
+    margin-top: 20px;
+    margin-left: 50px;   
+    display: flex;
+    flex-wrap: wrap;    
+    gap: 15px;
+}
+.all-video {
+    display: flex;
+}
+.video {    
+    width: 32%;
+    height: 30%;  
+    background-color: white;
+}
+iframe {    
+    border-radius: 10px;
+    width: 100%;   
+    height: 200px;
+}
+img {    
+    border-radius: 100%;
+    height: 35px;
+    width: 35px;
+}
+main .video-container .video .pf p {    margin-left: 10px;
+    margin-top: 4px;
+}.pf {
+    display: flex;    margin-top: 8px;
+}
+.name {
+    margin-left: 50px;    margin-top: 10px;
+    margin-bottom: 10px;    margin-bottom: 10px;
+    color: rgb(90, 87, 87);}
